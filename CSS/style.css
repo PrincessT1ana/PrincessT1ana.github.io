@@ -1,0 +1,28 @@
+header { 
+background-color: purple;
+height: 90px;
+width: 550px;
+}
+
+main {
+background-color: orange;
+height: 400px;
+width: 400px;
+position: relative; left: 150px;
+position: relative; top: -22px
+}
+
+nav {
+background-color: blue;
+width: 150px;
+height: 401px;
+position: relative; top: -443px;
+}
+
+footer {
+background-color: aqua;
+width: 555px;
+height: 130px;
+position: relative; top: -464px
+
+}
