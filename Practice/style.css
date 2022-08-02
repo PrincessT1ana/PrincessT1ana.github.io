@@ -1,0 +1,27 @@
+h1 {
+color: black;
+background-color: red;
+}
+#paragraph {
+background-color: khaki;
+height: 420px;
+}
+body {background-color: purple;}
+a {
+color: black;
+}
+h1 {
+    color: black;
+    background-color: red;
+    }
+    .header {
+    background-color: khaki;
+    height: 400px;
+    }
+    body {background-color: purple;}
+    a {
+    color: black;
+    text-decoration: none;    } 
+
+    a:hover {color: white;}
+    
