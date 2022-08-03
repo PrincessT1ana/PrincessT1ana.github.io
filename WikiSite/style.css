@@ -1,0 +1,74 @@
+nav {
+background-color: gainsboro;
+height: 690px;
+width: 140px;
+text-align: center;
+padding: 10px;
+position: relative; top: -100px;
+}
+menu {
+position: relative; right: 41px;
+color: blue;
+}
+header {
+    text-align: center;
+    background-color: gainsboro;
+    padding: 10px;
+    position: relative; left: 190px;
+}
+main {
+position: relative; top: -700px;
+position: relative; left: 189px;
+width: 500px;
+    background-color: aquamarine
+}
+p {
+background-color: rgba(172, 255, 47, 0.395);
+width: 500px;
+position: relative; top: -720px;
+position: relative; left: 189px;
+}
+
+h2{
+background-color: aquamarine;
+position: relative; top: -700px;
+position: relative; left: 189px;
+width: 500px;
+}
+
+div {
+position: relative; top: -700px;
+position: relative; left: 189px;
+width: 500px;
+background-color: rgba(172, 255, 47, 0.395);
+position: relative; top: -719px;
+}
+
+.BlueHead {
+background-color: blue;
+font-size: 22px;
+
+}
+
+.BlueBody {
+background-color: rgba(0, 255, 255, 0.434);
+position: relative; top: -745px;
+
+}
+
+.BlueBody2 {
+    background-color: rgba(0, 255, 255, 0.434);
+    position: relative; top: -720px;
+    
+    }
+    h4{
+        position: relative; top: -202px;
+        font-size: 22px;
+    background-color: blue;
+    
+    }
+
+    h5 {
+font-size: 20px;
+
+    }
