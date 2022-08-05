@@ -1,16 +1,15 @@
+
+
+
 nav {
 background-color: gainsboro;
-height: 690px;
-width: 140px;
+height: 700px;
+width: 170px;
 text-align: center;
-padding: 10px;
 position: relative; top: -100px;
 }
-menu {
-position: relative; right: 41px;
-color: blue;
-text-decoration: underline;
-}
+
+
 header {
     text-align: center;
     background-color: gainsboro;
@@ -19,9 +18,10 @@ header {
     width: 1100px;
 }
 main {
-position: relative; top: -700px;
+position: relative; top: px;
 position: relative; left: 189px;
 width: 500px;
+float: left;
     background-color: aquamarine
 }
 p {
@@ -29,6 +29,7 @@ background-color: rgba(172, 255, 47, 0.395);
 width: 500px;
 position: relative; top: -720px;
 position: relative; left: 189px;
+padding: 10px;
 }
 
 h2{
@@ -36,9 +37,10 @@ background-color: aquamarine;
 position: relative; top: -700px;
 position: relative; left: 189px;
 width: 500px;
+padding: 10px;
 }
 
-div {
+.Text {
 position: relative; top: -700px;
 position: relative; left: 189px;
 width: 500px;
@@ -49,31 +51,36 @@ position: relative; top: -719px;
 .BlueHead {
 background-color: blue;
 font-size: 22px;
-position: relative; right: ;
+position: relative; right: -200px;
 margin-left: 600px;
-position: relative; top: -1140px;
+position: relative; top: -1209px;
+width: 530px;
+padding: ;
 }
 
 .BlueBody {
 background-color: rgba(0, 255, 255, 0.434);
-position: relative; top: -745px;
-margin-left: 600px;
-position: relative; top: -1166px;
+position: relative; top: -625px;
+margin-left: 500px;
+position: relative; top: -1241px;
+position: relative; left: 300px;
+width: 530px;
 
 }
 
 .BlueBody2 {
     background-color: rgba(0, 255, 255, 0.434);
-    position: relative; top: -720px;
-    margin-left: 600px;
-    position: relative; top: -1139px;
+width: 530px;
+    position: relative; left: 800px;
+    position: relative; top: -1177px;
 
 
     }
     h4{
-        position: relative; top: -202px;
-        font-size: 22px;
+        position: relative; top: -260px;
+        font-size: 30px;
     background-color: blue;
+    width: 440px;
     
     }
 
@@ -83,18 +90,21 @@ font-size: 20px;
     }
 
     .purple {
-background-color: rgb(133, 36, 133);
+background-color: rgba(133, 36, 133, 0);
+position: relative; left: 230px;
+position: relative; top: -200px;
 
-width: 1100px;
-position: relative; top: -1150px;
+
+
 
     }
 
     .purplebody {
 background-color: rgba(137, 43, 226, 0.437);
 padding-left: 300px;
-position: relative; top: -1170px;
+position: relative; top: -1390px;
 width: 800px;
+position: relative; left: 190px;
 
     }
 
@@ -105,3 +115,19 @@ position: relative; right:270px;
 position: relative; top: -60px;
 
     }
+    h1 {
+position: relative; top: -1860px;
+position: relative; left: 190px;
+background-color: purple;
+    }
+
+
+    h3{
+
+font-size: 40px;
+background-color: gainsboro;
+position: relative; top: -2700px;
+position: relative; left: 600px;
+    }
+
+  
