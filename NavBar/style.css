@@ -1,0 +1,38 @@
+body {
+
+    height: 1500px;
+    position: relative;
+}
+
+li {
+
+    display: inline;
+    padding: 10px;
+    list-style: none;
+
+}
+
+a {
+
+text-decoration: none;
+
+}
+
+Nav {
+
+background-color: purple;
+
+}
+
+#Navbar {
+    
+position: fixed;
+background-color: aqua;
+
+}
+
+#Nav2 {
+position: relative; top: 150px;
+background-color: blueviolet;
+
+}
