@@ -20,19 +20,14 @@ text-decoration: none;
 
 Nav {
 
-background-color: purple;
-
-}
-
-#Navbar {
-    
-position: fixed;
-background-color: aqua;
-
-}
-
-#Nav2 {
-position: relative; top: 150px;
 background-color: blueviolet;
 
+
+}
+
+ul {
+
+    background-color: blueviolet;
+
+    padding: 10px;
 }
