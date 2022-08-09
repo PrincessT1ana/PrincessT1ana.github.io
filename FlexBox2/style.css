@@ -1,0 +1,41 @@
+body {
+
+    height: 1500px;
+    position: relative;
+}
+
+li {
+
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+
+a {
+
+text-decoration: none;
+}
+
+a:hover {
+
+    background-color: aqua;
+    padding: 10px;
+}
+
+Nav {
+
+background-color: blueviolet;
+}
+
+ul {
+
+    background-color: blueviolet;
+display: flex;
+justify-content: flex-end;
+    padding: 10px;
+}
+
+#home {
+    
+    margin: auto;
+}
