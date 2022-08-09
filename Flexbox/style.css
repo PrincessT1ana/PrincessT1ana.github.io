@@ -1,12 +1,5 @@
-body {
-
-    height: 1500px;
-    position: relative;
-}
-
 li {
 
-    display: inline;
     padding: 10px;
     list-style: none;
 }
@@ -22,11 +15,6 @@ a:hover {
     padding: 10px;
 }
 
-Nav {
-
-background-color: blueviolet;
-}
-
 ul {
 
     background-color: blueviolet;
@@ -38,4 +26,13 @@ justify-content: flex-end;
 #home {
     
     margin: auto;
+}
+
+
+@media only screen and (max-width: 768px)
+ul {
+
+
+flex-direction: column
+
 }
