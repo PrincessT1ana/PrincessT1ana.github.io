@@ -12,6 +12,7 @@ ul{
 
 display: flex;
 list-style: none;
+
 }
 
 .dropdown2  {
@@ -42,4 +43,10 @@ ul {
     flex-direction: column;
 }
 
+}
+
+a {
+
+
+    text-decoration: none;
 }
