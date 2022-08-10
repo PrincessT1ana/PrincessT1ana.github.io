@@ -31,8 +31,19 @@ background-color: aqua;
 
 }
 
-.Nav2 {
-position: relative; top: 150px;
-background-color: blueviolet;
+.Navbar2 {
 
+    background-color: purple;
+    position: relative; top: 100px;
+}
+
+.Navbar3 {
+
+    background-color: purple;
+    position: relative; top: 150px;
+}
+
+ul {
+padding: 20px;
+    background-color: purple;
 }
