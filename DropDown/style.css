@@ -1,6 +1,6 @@
 nav {
 
-background-color: aqua;
+background-color: purple;
 }
 
 li {
@@ -11,22 +11,23 @@ li {
 ul{
 
 display: flex;
-
+list-style: none;
 }
 
 .dropdown2  {
 
 position: absolute;
 width: 50%;
-background-color: antiquewhite;
+background-color: powderblue;
 flex-direction: column;
 justify-content: flex-end;
 text-align: left;
 padding-left: 0%;
-border: 2px solid blue;
+border: 2px solid pink;
 border-radius: 10%;
 opacity: 0;
 transition: 0.5s;
+
 }
 
 .dropdown:hover .dropdown2 {
