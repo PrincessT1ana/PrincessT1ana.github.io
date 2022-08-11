@@ -1,0 +1,43 @@
+table {
+
+    border-bottom: solid 3px purple;
+    border-radius: 5px;
+border-collapse: collapse;
+text-align: left;    
+}
+
+body {
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 50px;
+    font-family: fantasy;
+
+}
+th {
+
+    background-color: aqua;
+    padding: 10px;
+}
+
+td, th {
+
+padding: 20px;
+
+}
+
+.One {
+
+background-color: antiquewhite;
+
+}
+
+.Two {
+background-color: azure;
+
+}
+
+.Three {
+
+background-color: antiquewhite
+}
