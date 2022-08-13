@@ -1,3 +1,4 @@
+
 body {
 
 display: grid;
@@ -5,10 +6,10 @@ display: grid;
 }
 
 h1 {
-
+display: grid;
 background-color: orange;
 padding: 30px;
-width: 900px;
+width: 100%;
 
 }
 
@@ -22,7 +23,7 @@ height: 800px;
 
 .Text {
 
-display: flex;
+display: grid;
 position: relative; top: -1160px;
 position: relative; left: 250px;
 width: 500px;
@@ -31,7 +32,7 @@ text-align: left;
 
 .Text2 {
 
-    display: flex;
+    display: grid;
     position: relative; top: -1000px;
     position: relative; left: 559px;
     width: 500px;
@@ -44,6 +45,9 @@ footer {
 display: grid;
 position: relative; top: -800px;
     background-color: blueviolet;
+    width: 1300px;
+    grid-row-start: auto;
+    grid-row-end: auto;
 }
 
 .Rick {
@@ -64,4 +68,5 @@ position: relative; left: 800px;
 a {
 
     text-decoration: none;
+    padding-
 }
