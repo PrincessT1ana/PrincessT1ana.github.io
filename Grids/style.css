@@ -1,0 +1,67 @@
+body {
+
+display: grid;
+
+}
+
+h1 {
+
+background-color: orange;
+padding: 30px;
+width: 900px;
+
+}
+
+nav {
+text-align: center;
+background-color: coral;
+width: 200px;
+height: 800px;
+
+}
+
+.Text {
+
+display: flex;
+position: relative; top: -1160px;
+position: relative; left: 250px;
+width: 500px;
+text-align: left;
+}
+
+.Text2 {
+
+    display: flex;
+    position: relative; top: -1000px;
+    position: relative; left: 559px;
+    width: 500px;
+    text-align: right;
+
+
+}
+
+footer {
+display: grid;
+position: relative; top: -800px;
+    background-color: blueviolet;
+}
+
+.Rick {
+
+position: relative; top: -750px;
+position: relative; left: 800px;
+
+}
+
+.Roll {
+
+    position: relative; top: -620px;
+    position: relative; left: 250px;
+    
+
+}
+
+a {
+
+    text-decoration: none;
+}
