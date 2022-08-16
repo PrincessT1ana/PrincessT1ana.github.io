@@ -24,3 +24,8 @@ label {
 background-color: azure;
 
 }
+
+form {
+background-color: red; width: 500px;
+position: relative; left: 1060px;
+}
