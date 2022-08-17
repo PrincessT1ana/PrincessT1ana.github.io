@@ -1,0 +1,43 @@
+body {
+
+    background-color: beige;
+}
+
+form {
+
+background-color: antiquewhite;
+height: 500px;
+width: 400px;
+position: relative; left: 90px;
+}
+
+input:invalid {
+
+    border: 2px dashed red;
+    
+    }
+    
+    textarea:invalid {
+    
+        border: 2px dashed red;
+        
+        }
+    input:valid {
+    
+    border: 2px solid rgb(0, 255, 0);
+    
+    }
+    input {
+
+height: 30px;
+width: 300px;
+
+    }
+
+    textarea {
+
+height: 200px;
+width: 300px;
+
+    }
+    
