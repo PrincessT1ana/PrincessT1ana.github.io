@@ -1,13 +1,15 @@
 body {
-
+margin: auto;
     background-color: beige;
+    text-align: center;
 }
 
 form {
 
 background-color: antiquewhite;
-height: 500px;
+height: 550px;
 width: 400px;
+margin: auto;
 
 }
 
@@ -44,7 +46,7 @@ width: 300px;
     label {
 
 font-size: 20px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family:fantasy
     }
 
     select {
@@ -52,4 +54,16 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 15px;
 padding: 10px;
 width: 310px;
+    }
+
+    option {
+
+font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    input {
+
+font-family:monospace
+
     }
