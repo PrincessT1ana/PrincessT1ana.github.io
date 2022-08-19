@@ -27,9 +27,17 @@ position: relative; top: -650px;
 
 .Center {
 
-    position: relative; top: -1304px;
+    position: relative; top: -1330px;
     position: relative; right: -730px;
 
 
 
+}
+
+.grid {
+
+display: grid;
+align-items: center;
+grid-template-columns: auto;
+-ms-grid-column-align: start;
 }
