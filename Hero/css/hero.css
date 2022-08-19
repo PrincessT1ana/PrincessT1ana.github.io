@@ -1,0 +1,9 @@
+.site-hero {
+
+display: flex;
+background-image: url(Hero/assets/branding/wood_bkgrnd.jpg);
+background-size: cover;
+background-position: center;
+height: 80vh;
+
+}
