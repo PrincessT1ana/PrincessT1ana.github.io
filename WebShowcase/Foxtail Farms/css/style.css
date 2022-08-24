@@ -3,14 +3,14 @@ ol {
 text-decoration: none;
 display: inline;
 padding: 50px;
-font-size: 40px;
+font-size: 20px;
 
 }
 
 ul{
 
 background-color: #e1a177;
-padding: 50px;
+padding: 30px;
 width: 100%;
 
 }
@@ -19,11 +19,30 @@ li {
 
 padding: 10px;
 font-size: 20px;
+
 }
 
 .footer-left {
 
+background-color: #e1a177;
 
 
+}
+
+.footer-right {
+
+display: flex;
+float: right;
+flex-direction: column;
+width: 1600px;
+height: 300px;
+position: relative; top: -580px;
+position: relative; right: 400px;
+font-size: 20px;
+}
+
+footer {
+width: 100%;
+padding: 90px;
 
 }

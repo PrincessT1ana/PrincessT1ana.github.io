@@ -104,9 +104,17 @@
 
       
     <!-- General content cards: -->
-<section>
-  <div class="row"> 
-    <div class="column">
+
+  <div class="grid"   
+  data-masonry= '{"itemSelector" : ".grid-item", "columnWidth": 160 }' 
+  >
+  <div class="grid">
+    <div class="grid-item" id="https://cdn.pixabay.com/photo/2022/08/19/05/15/flower-7396126__480.jpg></div>
+    <div class="grid-item grid-item--width2 grid-item grid-item--height2"></div>
+    <div class="grid-item grid-item--height2"></div>
+    ...
+  </div>
+    <div class="grid-item" id="https://cdn.pixabay.com/photo/2022/08/19/05/15/flower-7396126__480.jpg">
       <img src="https://cdn.pixabay.com/photo/2022/08/19/05/15/flower-7396126__480.jpg">
       <img src="https://cdn.pixabay.com/photo/2022/07/27/03/23/shilouette-7347044__480.jpg">
       <img src="https://cdn.pixabay.com/photo/2022/08/16/20/02/wallpaper-7391054__480.jpg">
@@ -127,7 +135,7 @@
   
 
 
-</section>
+
 
       <div class="content-container content">
         <h3 class="content-header">content Header</h3>
