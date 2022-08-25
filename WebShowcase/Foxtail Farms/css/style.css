@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&display=swap');
+
+.nav {
+
+    font-family: 'Lobster', cursive;
+
+}
+
 ol {
 
 text-decoration: none;
 display: inline;
 padding: 50px;
 font-size: 20px;
+font-family: 'Lobster', cursive;
 
 }
 
@@ -12,14 +21,14 @@ ul{
 background-color: #e1a177;
 padding: 30px;
 width: 100%;
-
+font-family: 'Montserrat', sans-serif;
 }
 
 li {
 
 padding: 10px;
 font-size: 20px;
-
+font-family: 'Montserrat', sans-serif;
 }
 
 .footer-left {
@@ -44,5 +53,30 @@ font-size: 20px;
 footer {
 width: 100%;
 padding: 90px;
+
+}
+
+p{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h6{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+div {
+
+    font-family: 'Montserrat', sans-serif;
+
 
 }
