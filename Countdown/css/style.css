@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+body {
+
+    margin: 0;
+    background-image: url(https://st2.depositphotos.com/1077101/5603/v/600/depositphotos_56038935-stock-illustration-art-deco-geometric-frame.jpg)
+    
+}
+
+#hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+     
+}
+
+h1{
+
+font-family: monospace;
+color: blueviolet;
+font-weight: 2000;
+}
+
+div{
+
+
+
+}
