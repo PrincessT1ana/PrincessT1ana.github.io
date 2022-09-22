@@ -1,7 +1,7 @@
 /* Simple starting css to center body content and update the font-family */
 body {
   text-align: center;
-  font-family: Verdana, sans-serif;
+  font-family: cursive;
 }
 
 /*****************************************************************************
@@ -30,13 +30,13 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #000022;
+  background-color: gray;
   opacity: 0.8;
   z-index: 10;
 }
 /* Make the popup be on top of the overlay and style it */
 #popup {
-  background: white;
+  background: antiquewhite;
   border-radius: 36px;
   padding: 36px 24px 72px;
   position: relative;
@@ -167,31 +167,35 @@ body {
 *****************************************************************************/
 /* Add spacing, sizing, and color, along with turning on transitions */
 button {
-  background: linear-gradient(to bottom, skyblue, teal);
+  background: linear-gradient(to bottom, rgb(43, 0, 255), rgb(119, 28, 255));
   border: 0;
   border-radius: 12px;
   padding: 12px;
   min-width: 150px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 24px 12px;
   transition: transform 0.2s;
   cursor: pointer;
+  
 }
 /* Make the button grow when hovered over */
 button:hover {
   transform: scale(1.1);
+  transform: rotate(10deg);
+  
 }
 /* Flip the gradient when clicked on */
 button:active {
-  background: linear-gradient(to top, skyblue, teal);
+  background: linear-gradient(to top, rgb(68, 0, 255), rgb(137, 51, 243));
 }
 /* Hide that obnoxious orange outline when clicked in Chrome */
 button:focus-visible {
   outline: 0;
 }
 
-.button {
 
-color: black;
-font-family: cursive;
+body {
+
+background-color: antiquewhite;
+
 }
