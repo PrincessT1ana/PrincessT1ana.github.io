@@ -189,3 +189,9 @@ button:active {
 button:focus-visible {
   outline: 0;
 }
+
+.button {
+
+color: black;
+font-family: cursive;
+}
