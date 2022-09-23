@@ -1,0 +1,111 @@
+    .cls-5 {
+    
+    color: blue;
+    
+    
+    }
+    
+    .cls-4 {
+    
+    color: blue;
+    
+    }
+    
+    .cls-10 {
+    
+    color: blue;
+    
+    } 
+    
+    
+    .cls-7 {
+    
+    color: blue;
+    
+    } 
+    
+    .cls-11{
+    
+    color: blue;
+    
+    } 
+    
+    .cls-8{
+    
+    color: blue;
+    
+    } 
+    
+    .cls-6 {
+    
+    color: blue;
+    
+    } 
+    
+    .cls-3 {
+    
+    color: blue;
+    
+    
+    } 
+    
+    .cls-9 {
+    
+        color: blue;
+        
+        
+        } 
+
+
+
+#Layer_1 {
+
+color: orange;
+animation: wiggle 2s linear;
+animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  #Layer_1:hover {
+
+    transform: scale(1.1);
+    animation-name: bounce;
+    animation-timing-function: ease;
+
+  }
+
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+  }
+
+
+
