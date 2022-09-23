@@ -1,4 +1,17 @@
-#Images {
+img {
 
-    width: 100%;
+width: 100%;
+
+}
+
+body {
+
+background-color: antiquewhite;
+
+
+}
+
+body :hover {
+
+    transform: scale(20px);
 }
