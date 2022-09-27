@@ -71,50 +71,116 @@ align-items: center;
 }
 
 .hover {
-    background-image: linear-gradient(
-      to right,
-      #569567,
-      #569567 50%,
-      #000 50%
-    );
-    background-size: 200% 100%;
-    background-position: -100%;
-    display: inline-block;
-    padding: 5px 0;
-    position: relative;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s ease-in-out;
-    
-  }
-  
-  .hover:before{
-    content: '';
-    background: #54b3d6;
-    display: block;
-    position: absolute;
-    bottom: -3px;
-    left: 0;
-    width: 0;
-    height: 3px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .hover:hover {
-   background-position: 0;
-  }
-  
-  .hover:hover::before{
-    width: 100%;
-  }
-  
-  /* Presentational Styles */
-  body {
-    display: grid;
-    font-family: 'Poppins', sans-serif;
-    font-size: 27px;
-    font-weight: 700;
-    height: 100vh;
-    place-items: center;
+  background-image: linear-gradient(
+    to right,
+    #569567,
+    #569567 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative; left: 460px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.hover:before{
+  content: '';
+  background: #569567;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hover:hover {
+ background-position: 0;
+}
+
+.hover:hover::before{
+  width: 100%;
+}
+
+.action {
+  box-shadow: inset 0 0 0 0 #569567;
+  color: #569567;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  position: relative; left: 40px;
+}
+.action:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #569567;;
+}
+
+.action {
+  color: #569567;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+footer {
+
+background-color: darkkhaki;
+
+}
+
+.menu {
+  background-color: darkkhaki;
+display: flex;
+flex-direction: column;
+float: right;
+justify-content: right;
+padding-right: 800px;
+}
+
+.Green {
+
+  width: 300px;
+  position: relative; left: 50px;
+
+}
+
+.socials {
+
+display: flex;
+justify-content: right;
+float: right;
+position: relative; top: -200px;
+padding: 40px;
+
+}
+
+.hover {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
 
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
