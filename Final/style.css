@@ -3,7 +3,7 @@ ol {
     list-style: none;
     display: flex;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: darkkhaki;
     text-decoration: none;
     width: 100%;
     align-items: center;
@@ -184,3 +184,22 @@ padding: 40px;
     width: 100%;
   }
 }
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  list-style: none;
+  align-items: left;
+  float: right;
+  position: relative; top: -200px;
+  position: relative; left: -500px;
+
+  }
+
+  footer {
+
+background-color: darkkhaki;
+
+  }
+  
